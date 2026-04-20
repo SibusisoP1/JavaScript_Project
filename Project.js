@@ -1,3 +1,7 @@
+console.log(" ");
+console.log("Question 1:");
+console.log(" ");
+
 function Grade(value) {
   switch (true) {
     case value >= 90 && value <= 100:
@@ -26,7 +30,11 @@ function Grade(value) {
 
 Grade(15);
 
+console.log(" ");
 // Question 2
+console.log(" ");
+
+console.log("Question 2 :");
 function convert_num(str) {
   let result = Number(str);
   console.log(result);
@@ -48,8 +56,11 @@ function checkVal() {
 
 checkVal();
 
+console.log(" ");
 // Question 3
+console.log(" ");
 
+console.log("Question 3 :");
 function greetingBot(user_name, isMorning) {
   let greeting = isMorning
     ? `Good Morning, ${user_name}`
@@ -60,7 +71,11 @@ function greetingBot(user_name, isMorning) {
 
 greetingBot("Sibusiso", false);
 
+console.log(" ");
 //Question 4
+console.log(" ");
+
+console.log("Question 4 :");
 const post = {
   username: "Sibusiso",
   caption: "I Love One Piece Anime",
@@ -78,6 +93,10 @@ console.log("username: ", username);
 console.log("caption:", caption);
 
 //Question 5
+
+console.log(" ");
+console.log("Question 5 :");
+console.log(" ");
 const first = [1, 2, 3, 4, 5];
 const second = [6, 7, 8, 9, 10];
 
@@ -107,5 +126,5 @@ while (num > 0) {
   result += `${num} `;
   num--;
 }
-
-console.log(result);
+console.log(" ");
+console.log("Descending number from (10 to 1) :", result);
