@@ -5,19 +5,19 @@ console.log(" ");
 function Grade(value) {
   switch (true) {
     case value >= 90 && value <= 100:
-      console.log("A");
+      console.log("Grade: A");
       break;
     case value >= 80 && value <= 89:
-      console.log("B");
+      console.log("Grade: B");
       break;
     case value >= 70 && value <= 79:
-      console.log("C");
+      console.log("Grade :C");
       break;
     case value >= 60 && value <= 69:
-      console.log("D");
+      console.log("Grade : D");
       break;
     case value <= 59:
-      console.log("F");
+      console.log("Grade : F");
       break;
     default:
       console.log("Out of score range (0 - 100)");
@@ -28,7 +28,7 @@ function Grade(value) {
   console.log("The student : ", score_results);
 }
 
-Grade(15);
+Grade(10);
 
 console.log(" ");
 // Question 2
