@@ -32,15 +32,15 @@ Grade(15);
 
 console.log(" ");
 // Question 2
+console.log("Question 2 :");
 console.log(" ");
 
-console.log("Question 2 :");
 function convert_num(str) {
   let result = Number(str);
-  console.log(result);
+  console.log(`Converted result : ${result} type: ${typeof result}`);
 }
 
-convert_num();
+convert_num("55");
 
 function checkVal() {
   const Values = [0, "", "Hello", null, undefined, NaN];
@@ -58,9 +58,9 @@ checkVal();
 
 console.log(" ");
 // Question 3
+console.log("Question 3 :");
 console.log(" ");
 
-console.log("Question 3 :");
 function greetingBot(user_name, isMorning) {
   let greeting = isMorning
     ? `Good Morning, ${user_name}`
@@ -73,14 +73,14 @@ greetingBot("Sibusiso", false);
 
 console.log(" ");
 //Question 4
+console.log("Question 4 :");
 console.log(" ");
 
-console.log("Question 4 :");
 const post = {
   username: "Sibusiso",
   caption: "I Love One Piece Anime",
-  likes: 0,
-  comment: "Zoooorooo!!!",
+  likes: 99,
+  comment: ["Greatest story ever written!!!", "You Got nice taste!!!"],
 
   addLikes() {
     this.likes++;
@@ -88,9 +88,11 @@ const post = {
 };
 
 const { username, caption } = post;
+//post.addLikes();
 
 console.log("username: ", username);
 console.log("caption:", caption);
+//console.log("Likes :", post.likes);
 
 //Question 5
 
